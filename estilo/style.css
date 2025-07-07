@@ -46,7 +46,9 @@ h2, h3{
 
 }
 
-
+p {
+    font-size: 1.2em;
+}
 
 header> h1 {
     margin-top: 0px;
@@ -89,8 +91,8 @@ ul {
 }
 
 
-a {
-    color: darkblue;
+main a {
+    color: rgb(151, 113, 15);
     text-decoration: none;
 }
 
@@ -98,6 +100,7 @@ a:hover {
     text-decoration: underline;
     font-size: 1.2em;
     transition-duration: 1s;
+    
 
 }
 
@@ -144,5 +147,20 @@ footer > p {
     padding-bottom: 2px;
     text-align: center;
    
+}
+
+
+p#autor {
+    background-color: blueviolet;
+    margin-bottom: -30px;
+    color: black;
+    margin-top: 20px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 

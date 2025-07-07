@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Against';
+  src: url(fontes/against-regular.ttf) format('truetype');
+}
+
+* { 
+    margin: 0px;
+   
+   
+
+}
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+;
+  background-image: url(../imagens/fundocarta.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  
+}
+header {
+    background-color: #f8f8f8;
+   padding: 20px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+h2, h3{
+    font-family:  'Against';
+     
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+   
+    
+
+}
+
+
+
+header> h1 {
+    margin-top: 0px;
+    text-align: center;
+    font-family:  'Against';
+    
+}
+header>h2 {
+    text-align: center;
+    background-color: #f8f8f800;
+    
+}
+main{
+    text-align: center;
+    background-color: rgba(237, 224, 200, 0.42);
+}
+
+
+h2#primeiro {
+    margin-top: 0px;
+}
+q {
+    background-color: rgba(255, 255, 255, 0.76);
+    margin-top: 80px;
+    margin-bottom: 10px;
+    padding: 9px;
+    border-radius: 10px 10px  0px 10px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    background-color: rgba(255, 255, 0, 0.075);
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 20px;
+
+}
+
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 1.2em;
+    transition-duration: 1s;
+
+}
+
+
+h3.final {
+    margin: 0px;
+}
+h3#penultimo {
+    margin-top: 20px;
+}
+
+h3#ultima {
+    padding-bottom: 10px;
+}
+
+img {
+    border: solid white 4px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+img:hover {
+    transform: rotatey(360deg);
+    transition: 2s;
+}
+
+footer {
+    background-color:    #4278c4ce;
+    margin: 0px;
+    padding: 0px;
+     padding-bottom: 20px;
+
+}
+
+footer> h2 {
+    padding-top: 50px;
+    margin-top: 0px;
+
+}
+footer > p {
+    font-weight: bolder;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+    text-align: center;
+   
+}
+
